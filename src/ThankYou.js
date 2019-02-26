@@ -1,7 +1,7 @@
 import React from 'react'
 import { withTranslation } from 'react-i18next'
 
-const Hello2 = ({t}) => {
+const ThankYou = ({t}) => {
   return (
     <div>
       {t('thankyou.label')}
@@ -9,4 +9,4 @@ const Hello2 = ({t}) => {
   )
 }
 
-export default withTranslation()(Hello2)
+export default withTranslation()(ThankYou)
